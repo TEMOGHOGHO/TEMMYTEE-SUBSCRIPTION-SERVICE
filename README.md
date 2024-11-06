@@ -47,7 +47,7 @@ The second table provides a comparison of the subscription start date by both su
 
 image
 
-SQL Queries for CUSOMER SEGMENATION FOR A SUBSCRIPTION SERVICE
+## SQL Queries for CUSTOMER SEGMENTATION FOR TEMMYTEE SUBSCRIPTION SERVICE
  Select * from [dbo].[CustomerData]
 retrieve the total number of customers from each region.
 Select region, count(CustomerID) as Total_number
