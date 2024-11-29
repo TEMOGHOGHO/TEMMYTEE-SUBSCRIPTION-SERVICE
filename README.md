@@ -7,7 +7,7 @@ and identify key trends in cancellations and renewals. The goal is to tell a com
 ## DATA SOURCE: The primary source of data is LITA Capstone dataset.xlsx.
 
 ## TOOLS: 
-- Microsoft Excel for data cleaning and analysis [download here]()
+- Microsoft Excel for data cleaning and analysis 
 - Structured Query Language (SQL) for querying of data
 - Power BI for Visualization
 - GitHub for Portfolio building
@@ -92,7 +92,7 @@ from [dbo].[CustomerData]
  where DATEDIFF(month,subscriptionStart,subscriptionend) <=6"
 
 # the average subscription duration for all customers.
-select avg(datediff(day,subscriptionStart,subscriptionend)) as AverageSubscripionDuration
+select avg(datediff(day,subscriptionStart,subscriptionend)) as AverageSubscriptionDuration
 from [dbo].[CustomerData]
 
 # customers with subscriptions longer than 12 months.
